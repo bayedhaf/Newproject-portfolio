@@ -44,9 +44,9 @@ const CustomNavbar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com"><img src={linked} alt="LinkedIn" /></a>
-                            <a href="https://www.facebook.com"><img src={fbook} alt="Facebook" /></a>
-                            <a href="https://www.github.com"><img src={gthub} alt="GitHub" /></a>
+                            <a href="https://et.linkedin.com/in/bayisa-balcha-52b12a334"><img src={linked} alt="LinkedIn" /></a>
+                            <a href="https://www.facebook.com/bayisabalcha1665"><img src={fbook} alt="Facebook" /></a>
+                            <a href="https://github.com/bayedhaf/bayedhaf"><img src={gthub} alt="GitHub" /></a>
                             <a href="https://www.github.com"><img src={Logo} alt="telegram" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}>

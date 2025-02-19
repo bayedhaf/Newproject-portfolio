@@ -10,7 +10,7 @@ const Skills = () => {
 
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
+          
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -39,14 +39,63 @@ const Skills = () => {
                             <div className="item">
                                 <img src={codeIMG1} alt="image" className="" />
                                 <h3 >Web Development</h3>
+                                <p>Front-end:& Back-end: React, Bootstrap,Tailwind, HTML, CSS,Node.js, Express.js,Mangodb</p>
+                               
                             </div>
                             <div className="item">
                                 <img src={codeIMG} alt="image" className="" />
                                 <h3 >Mobile App developer</h3>
+                                <p>React Native</p>
                             </div>
                             <div className="item">
                                 <img src={codeIMG5} alt="image" className="" />
-                                <h3 >Soft skill</h3>
+                                <h3 >Tools and Technologies</h3>
+                                <p>Git, GitHub, VS Code, npm, REST APIs</p>
+                            </div>
+                            <div className="item">
+                                <img src={codeIMG5} alt="image" className="" />
+                                <h3 >Soft Skills</h3>
+                                <p>Strong teamwork
+                                    and collaboration
+                                    skills
+                                    Effective
+                                    communication
+                                    Problem-solving
+                                    and analytical
+                                    thinking</p>
+                                    
+                             </div>
+                             <div className="item">
+                                <img src={codeIMG5} alt="image" className="" />
+                                <h3 >Professional Goals:</h3>
+                                <p><ul><li>Continuously
+                                        improve technical
+                                        skills in software
+                                        development.</li>
+                                        <li> Experiment with
+                                        new technologies
+                                        and frameworks to
+                                        stay ahead of the
+                                        curve.</li>
+                                        </ul>
+                                       <li>Contribute to
+                                        solving real-world
+                                        problems through
+                                        innovation and
+                                        creative thinking.</li>
+                                        <li> I am always open to
+                                        networking and
+                                        collaborating with
+                                        like-minded
+                                        professionals</li>
+                                       </p>
+                                        </div>
+                            <div className="item">
+                                <img src={codeIMG5} alt="image" className="" />
+                                <h3 >Human Languages:</h3>
+                                <p>English,
+                                   , Afan Oromo and
+                                    Amaric</p>
                             </div>
                         </Carousel>
                     </div>
