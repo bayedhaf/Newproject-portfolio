@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import Logo from '../assets/image/telegram.jpg';
-import linked from '../assets/image/lkdn.jpg'; 
-import fbook from '../assets/image/facebook.jpg'; 
+import Logo from '../assets/image/telegram.jpg'; // Corrected image path
+import linked from '../assets/image/lkdn.jpg';
+import fbook from '../assets/image/facebook.jpg';
 import gthub from '../assets/image/github.jpg';
 
 const CustomNavbar = () => {
@@ -30,9 +30,9 @@ const CustomNavbar = () => {
         <Navbar expand="lg" className={scroll ? "scroll" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img  className="Logo" src="" alt="Logo" />
+                    <img className="Logo" src={Logo} alt="Logo" /> {/* Provided correct Logo source */}
                 </Navbar.Brand>
-                <Navbar.Toggle  aria-controls="basic-navbar-nav">
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">

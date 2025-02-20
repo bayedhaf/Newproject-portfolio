@@ -48,9 +48,7 @@ const Banner = () => {
                         <h1>{'Hi, I am Bayisa: '} <span className="wrap">{text}</span></h1>
                          <p>A motivated Software Engineering student at Adama Science and
                                 Technology University, with a strong foundation in web
-                                development and mobile app development. Skilled in front-end
-                                and back-end technologies such as HTML, CSS, JavaScript,
-                                React, Node.js, Python, and Express.js. Eager to improve my
+                                development and mobile app development.  Eager to improve my
                                 skills continuously and contribute to innovative solutions while
                                 collaborating effectively with teams to solve real-world problems.</p>
                                     <button className="connect"> <a href="../assets/resume/resume1.pdf" download="/resume1.pdf" > 

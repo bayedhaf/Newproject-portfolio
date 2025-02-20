@@ -33,9 +33,9 @@ const Skills = () => {
                 <Row>
                     <Col>
                     <div className="skill-bx">
-                        <h1 className="">Skills</h1>
-                        <p>Web Development:HTML, CSS, JavaScriptReact.js, Angular, Vue.js Frontend Frameworks Node.js, Express.js Backend FrameworksRESTful APIs, GraphQL Responsive Design</p>
-                        <Carousel responsive={responsive}className="skill-slider">
+                        <h1 className="hSkills">Skills</h1>
+                     
+                    <Carousel responsive={responsive}className="skill-slider">
                             <div className="item">
                                 <img src={codeIMG1} alt="image" className="" />
                                 <h3 >Web Development</h3>

@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import projeImg1 from '../assets/image/b3.jpg';
+import projeImg3 from '../assets/image/bb3.png';
+import projeImg4 from '../assets/image/bb4.png';
 import ProjectCards from "./ProjectCards";
 
 const Project = () => {
@@ -15,13 +17,13 @@ const Project = () => {
         
             title: "Social App Project",
             desc: "Connectify is a full-stack social networking application designed to connect users globally. It allows users to create profiles, share posts, follow friends, and interact through comments and likes. The app also includes real-time messaging and notifications to enhance user engagement.",
-            imgurl: projeImg1,
+            imgurl: projeImg3,
         },
         {
            
             title: "My Portfolio - Showcasing My Work and Skills",
             desc: "This portfolio is a personal website designed to showcase my projects, skills, and experience. It includes an about section, project details, a blog, and a contact form for potential collaborations.",
-            imgurl: projeImg1,
+            imgurl: projeImg4,
         },
        
     ];
