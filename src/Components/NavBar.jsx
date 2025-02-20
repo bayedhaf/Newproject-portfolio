@@ -47,7 +47,7 @@ const CustomNavbar = () => {
                             <a href="https://et.linkedin.com/in/bayisa-balcha-52b12a334"><img src={linked} alt="LinkedIn" /></a>
                             <a href="https://www.facebook.com/bayisabalcha1665"><img src={fbook} alt="Facebook" /></a>
                             <a href="https://github.com/bayedhaf/bayedhaf"><img src={gthub} alt="GitHub" /></a>
-                            <a href="https://www.github.com"><img src={Logo} alt="telegram" /></a>
+                            <a href="https://t.me/bayedhaf"><img src={Logo} alt="telegram" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}>
                             <span>Let's Connect</span>

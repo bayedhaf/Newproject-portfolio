@@ -1,0 +1,105 @@
+/* General Footer Styling */
+.footer {
+    background-color: #040d16;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 1px 18px black;
+  }
+  
+  .footer h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f39c12;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-card {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px; /* Ensures cards don't get too small on mobile */
+  }
+  
+  .footer-card h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f39c12;
+  }
+  
+  .footer-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ecf0f1;
+  }
+  
+  .footer-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-card ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ecf0f1;
+  }
+  
+  .footer-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-card {
+      width: 80%;
+      text-align: center;
+    }
+  
+    .footer h1 {
+      font-size: 20px;
+    }
+  
+    .footer-card h6 {
+      font-size: 16px;
+    }
+  
+    .footer-card p,
+    .footer-card ul li,
+    .footer-card a {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer h1 {
+      font-size: 18px;
+    }
+  
+    .footer-card h6 {
+      font-size: 14px;
+    }
+  
+    .footer-card p,
+    .footer-card ul li,
+    .footer-card a {
+      font-size: 10px;
+    }
+  }

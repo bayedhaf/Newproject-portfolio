@@ -37,17 +37,8 @@ const Banner = () => {
             setDelta(500);
         }
     };
-//resume dowload code
-const handleDownload = () => {
-    
-    const fileUrl = "/path/to/resume.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.setAttribute("download", "resume.pdf"); 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -62,8 +53,9 @@ const handleDownload = () => {
                                 React, Node.js, Python, and Express.js. Eager to improve my
                                 skills continuously and contribute to innovative solutions while
                                 collaborating effectively with teams to solve real-world problems.</p>
-                                    <button className="connect" onClick={handleDownload}>
-                            Download Resume <ArrowRight size={25} />
+                                    <button className="connect"> <a href="../assets/resume/resume1.pdf" download="/resume1.pdf" > 
+                                    Download Resume <ArrowRight size={25} /></a>
+                           
                         </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

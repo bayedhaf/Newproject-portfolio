@@ -6,6 +6,7 @@ import Banner from './Components/Banner'
 import Skills from "./Components/Skills";
 import Project from "./Components/Project";
 import Contect from "./Components/Contect";
+import Footer from "./Components/Footer";
 
 
 
@@ -17,6 +18,7 @@ return (
      <Skills/>
      <Project/>
      <Contect/>
+     <Footer/>
    
     </>
   )

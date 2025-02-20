@@ -33,6 +33,7 @@ const Contact = () => {
         <Row className="align-items-center">
           <Col md={6}>
             <form ref={form} onSubmit={sendEmail}>
+              <h1>Contact Me</h1>
               <label>Name</label>
               <input type="text" name="user_name" placeholder="Enter your name..." required />
               <label>Email</label>
